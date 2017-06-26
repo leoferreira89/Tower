@@ -41,7 +41,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Mudar nome"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -78,7 +78,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Mudar Password"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -115,7 +115,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Mudar de Perfil"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -147,7 +147,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Voltar"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -178,7 +178,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bg.jpg"/>
+          <Image iconType="3" name="/imagens/bg.jpg"/>
         </Property>
       </Properties>
       <Events>

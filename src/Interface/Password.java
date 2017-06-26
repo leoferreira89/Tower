@@ -65,7 +65,7 @@ public class Password extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton1.setForeground(new java.awt.Color(102, 0, 0));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton1.setText("Entrar");
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
@@ -93,7 +93,7 @@ public class Password extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Voltar");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -119,7 +119,7 @@ public class Password extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(230, 460, 280, 60);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bg.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bg.jpg"))); // NOI18N
         jLabel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
                 jLabel2MouseMoved(evt);
@@ -152,32 +152,32 @@ public class Password extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseMoved
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton1MouseMoved
 
     private void jLabel2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseMoved
-       jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
-       jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+       jButton1.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
+       jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jLabel2MouseMoved
 
     private void jButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseMoved
-       jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+       jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton2MouseMoved
 
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
-       jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+       jButton1.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton1MousePressed
 
     private void jButton1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseReleased
-       jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+       jButton1.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton1MouseReleased
 
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
-      jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+      jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MousePressed
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton2MousePressed
     
     /**

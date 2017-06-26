@@ -61,7 +61,7 @@ public class Mapas extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(754, 895));
         setResizable(false);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\wood menu.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

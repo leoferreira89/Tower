@@ -67,7 +67,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
-        lbl_t3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre3.png")); // NOI18N
+        lbl_t3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/torre3.png"))); // NOI18N
         lbl_t3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 0), 2));
         lbl_t3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_t3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -85,13 +85,13 @@ public class MercadoTorres extends javax.swing.JFrame {
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(204, 204, 0));
-        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\barra.png")); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/barra.png"))); // NOI18N
         jLabel23.setText("Dinheiro: 40€");
         jLabel23.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         getContentPane().add(jLabel23);
         jLabel23.setBounds(280, 390, 190, 50);
 
-        lbl_t2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre2.png")); // NOI18N
+        lbl_t2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/torre2.png"))); // NOI18N
         lbl_t2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 0), 2));
         lbl_t2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_t2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -107,7 +107,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         getContentPane().add(lbl_t2);
         lbl_t2.setBounds(260, 200, 80, 80);
 
-        lbl_t1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre1.png")); // NOI18N
+        lbl_t1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/torre1.png"))); // NOI18N
         lbl_t1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 0), 2));
         lbl_t1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_t1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -129,7 +129,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         getContentPane().add(jLabel19);
         jLabel19.setBounds(150, 330, 130, 20);
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt_m.png"))); // NOI18N
         jButton3.setBorderPainted(false);
         jButton3.setContentAreaFilled(false);
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -151,7 +151,7 @@ public class MercadoTorres extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Voltar");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -184,7 +184,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         jProgressBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jProgressBar1.setStringPainted(true);
         getContentPane().add(jProgressBar1);
-        jProgressBar1.setBounds(30, 740, 146, 19);
+        jProgressBar1.setBounds(30, 740, 148, 21);
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 204, 0));
@@ -204,7 +204,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(30, 650, 60, 20);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\wood menu.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu.png"))); // NOI18N
         jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel20);
         jLabel20.setBounds(0, 630, 760, 160);
@@ -216,17 +216,7 @@ public class MercadoTorres extends javax.swing.JFrame {
         getContentPane().add(jLable_desc1);
         jLable_desc1.setBounds(450, 310, 190, 70);
 
-        jLabel2.setIcon(new javax.swing.JLabel() {
-            public javax.swing.Icon getIcon() {
-                try {
-                    return new javax.swing.ImageIcon(
-                        new java.net.URL("file:/C:/Jogo/packs/rpg_gui_v1/wood menu2.png")
-                    );
-                } catch (java.net.MalformedURLException e) {
-                }
-                return null;
-            }
-        }.getIcon());
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu2.png"))); // NOI18N
         jLabel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
                 jLabel2MouseMoved(evt);
@@ -244,23 +234,23 @@ public class MercadoTorres extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void lbl_t3MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_t3MouseMoved
-        lbl_t3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre3-h.png"));
+        lbl_t3.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre3-h.png"));
     }//GEN-LAST:event_lbl_t3MouseMoved
 
     private void lbl_t2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_t2MouseMoved
-        lbl_t2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre2-h.png"));
+        lbl_t2.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre2-h.png"));
     }//GEN-LAST:event_lbl_t2MouseMoved
 
     private void lbl_t1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_t1MouseMoved
-        lbl_t1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre1-h.png"));
+        lbl_t1.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre1-h.png"));
     }//GEN-LAST:event_lbl_t1MouseMoved
 
     private void jButton3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MousePressed
-        jButton3.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m_c.png"));
+        jButton3.setIcon(new ImageIcon("src\\imagens\\bt_m_c.png"));
     }//GEN-LAST:event_jButton3MousePressed
 
     private void jButton3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseReleased
-        jButton3.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png"));
+        jButton3.setIcon(new ImageIcon("src\\imagens\\bt_m.png"));
     }//GEN-LAST:event_jButton3MouseReleased
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -288,21 +278,21 @@ public class MercadoTorres extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jLabel2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseMoved
-        lbl_t1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre1.png"));
-        lbl_t2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre2.png"));
-        lbl_t3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\torre3.png"));
+        lbl_t1.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre1.png"));
+        lbl_t2.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre2.png"));
+        lbl_t3.setIcon(new javax.swing.ImageIcon("src\\imagens\\torre3.png"));
     }//GEN-LAST:event_jLabel2MouseMoved
 
     private void jButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseMoved
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton2MouseMoved
 
     private void jButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MousePressed
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton2MousePressed
 
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

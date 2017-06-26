@@ -138,7 +138,7 @@ public class Perfil extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton1.setForeground(new java.awt.Color(102, 0, 0));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton1.setText("Selecionar");
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
@@ -168,7 +168,7 @@ public class Perfil extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Novo Perfil");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -195,7 +195,7 @@ public class Perfil extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(390, 640, 280, 60);
 
-        lbl_e1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\quandrado-X.png")); // NOI18N
+        lbl_e1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/quandrado-X.png"))); // NOI18N
         lbl_e1.setEnabled(false);
         lbl_e1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_e1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -206,7 +206,7 @@ public class Perfil extends javax.swing.JFrame {
         getContentPane().add(lbl_e1);
         lbl_e1.setBounds(532, 215, 78, 76);
 
-        lbl_e2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\quandrado-X.png")); // NOI18N
+        lbl_e2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/quandrado-X.png"))); // NOI18N
         lbl_e2.setEnabled(false);
         lbl_e2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_e2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -217,7 +217,7 @@ public class Perfil extends javax.swing.JFrame {
         getContentPane().add(lbl_e2);
         lbl_e2.setBounds(532, 309, 78, 76);
 
-        lbl_e3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\quandrado-X.png")); // NOI18N
+        lbl_e3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/quandrado-X.png"))); // NOI18N
         lbl_e3.setEnabled(false);
         lbl_e3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_e3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -228,7 +228,7 @@ public class Perfil extends javax.swing.JFrame {
         getContentPane().add(lbl_e3);
         lbl_e3.setBounds(532, 415, 78, 78);
 
-        lbl_e4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\quandrado-X.png")); // NOI18N
+        lbl_e4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/quandrado-X.png"))); // NOI18N
         lbl_e4.setEnabled(false);
         lbl_e4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         lbl_e4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -241,7 +241,7 @@ public class Perfil extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bg.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bg.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
         jLabel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
@@ -467,36 +467,36 @@ public class Perfil extends javax.swing.JFrame {
     }//GEN-LAST:event_lbl_e4MouseClicked
 
     private void jButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseMoved
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton2MouseMoved
 
     private void jLabel1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseMoved
-      jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
-      jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+      jButton1.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
+      jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jLabel1MouseMoved
 
     private void jButton1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseMoved
         if (jButton1.isEnabled()==true){
-            jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+            jButton1.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
         }
     }//GEN-LAST:event_jButton1MouseMoved
 
     private void jButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MousePressed
-       jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+       jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton2MousePressed
 
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
        if(jButton1.isEnabled()==true){
-           jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+           jButton1.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
        }
     }//GEN-LAST:event_jButton1MousePressed
 
     private void jButton1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseReleased
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton1MouseReleased
 
     public void checkLabels(){

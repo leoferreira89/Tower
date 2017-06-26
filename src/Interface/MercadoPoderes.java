@@ -81,14 +81,14 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         jLabel20.setForeground(new java.awt.Color(204, 204, 0));
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\barra.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/barra.png"))); // NOI18N
         jLabel20.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         getContentPane().add(jLabel20);
         jLabel20.setBounds(280, 390, 190, 50);
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Voltar");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -123,7 +123,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel18);
         jLabel18.setBounds(150, 310, 120, 20);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt_m.png"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -147,7 +147,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         jProgressBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jProgressBar1.setStringPainted(true);
         getContentPane().add(jProgressBar1);
-        jProgressBar1.setBounds(30, 740, 146, 19);
+        jProgressBar1.setBounds(30, 740, 148, 21);
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 204, 0));
@@ -167,7 +167,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(30, 650, 60, 20);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\wood menu.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu.png"))); // NOI18N
         jLabel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel19);
         jLabel19.setBounds(0, 630, 760, 160);
@@ -179,7 +179,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLable_desc);
         jLable_desc.setBounds(450, 300, 190, 60);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr1.png"))); // NOI18N
         jLabel5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -189,7 +189,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(150, 160, 50, 50);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr2.png"))); // NOI18N
         jLabel6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -199,7 +199,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel6);
         jLabel6.setBounds(210, 160, 50, 50);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr3.png"))); // NOI18N
         jLabel7.setFocusable(false);
         jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -210,7 +210,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel7);
         jLabel7.setBounds(270, 160, 50, 50);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr4.png"))); // NOI18N
         jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -220,7 +220,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(330, 160, 50, 50);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr5.png"))); // NOI18N
         jLabel9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -230,7 +230,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel9);
         jLabel9.setBounds(390, 160, 50, 50);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr6.png"))); // NOI18N
         jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -240,7 +240,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(450, 160, 50, 50);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr7.png"))); // NOI18N
         jLabel10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -250,7 +250,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel10);
         jLabel10.setBounds(510, 160, 50, 50);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr8.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr8.png"))); // NOI18N
         jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -260,7 +260,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(150, 230, 50, 50);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr9.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr9.png"))); // NOI18N
         jLabel12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -270,7 +270,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel12);
         jLabel12.setBounds(210, 230, 50, 50);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr10.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr10.png"))); // NOI18N
         jLabel13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -280,7 +280,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel13);
         jLabel13.setBounds(270, 230, 50, 50);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr11.png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr11.png"))); // NOI18N
         jLabel14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -290,7 +290,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel14);
         jLabel14.setBounds(330, 230, 50, 50);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr12.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr12.png"))); // NOI18N
         jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -300,7 +300,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel15);
         jLabel15.setBounds(390, 230, 50, 50);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr13.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr13.png"))); // NOI18N
         jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -310,7 +310,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel16);
         jLabel16.setBounds(450, 230, 50, 50);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr14.png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pwr14.png"))); // NOI18N
         jLabel17.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -320,17 +320,7 @@ public class MercadoPoderes extends javax.swing.JFrame {
         getContentPane().add(jLabel17);
         jLabel17.setBounds(510, 230, 50, 50);
 
-        jLabel3.setIcon(new javax.swing.JLabel() {
-            public javax.swing.Icon getIcon() {
-                try {
-                    return new javax.swing.ImageIcon(
-                        new java.net.URL("file:/C:/Jogo/packs/rpg_gui_v1/wood menu2.png")
-                    );
-                } catch (java.net.MalformedURLException e) {
-                }
-                return null;
-            }
-        }.getIcon());
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu2.png"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(100, 130, 560, 280);
 
@@ -395,11 +385,11 @@ public class MercadoPoderes extends javax.swing.JFrame {
     
     
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m_c.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt_m_c.png"));
     }//GEN-LAST:event_jButton1MousePressed
 
     private void jButton1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseReleased
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt_m.png"));
     }//GEN-LAST:event_jButton1MouseReleased
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -461,13 +451,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1r.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1r.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Este poder cura uma das suas personagens!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(0).getPreco())+"€");
         if (jLabel5.isEnabled()==true){
@@ -476,13 +466,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(7).getPreco())+"€");
         if (jLabel11.isEnabled()==true){
@@ -491,13 +481,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel11MouseClicked
 
     private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(8).getPreco())+"€");
         if (jLabel12.isEnabled()==true){
@@ -507,13 +497,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
        
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2r.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2r.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Este poder mata uma das personagens do enimigo</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(1).getPreco())+"€");
         if (jLabel6.isEnabled()==true){
@@ -522,13 +512,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel6MouseClicked
 
     private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3r.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3r.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Este poder é um pentagrama invertivo! wow!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(2).getPreco())+"€");
         if (jLabel7.isEnabled()==true){
@@ -537,13 +527,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel7MouseClicked
 
     private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(9).getPreco())+"€");
         if (jLabel13.isEnabled()==true){
@@ -552,13 +542,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6r.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6r.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(10).getPreco())+"€");
         if (jLabel14.isEnabled()==true){
@@ -567,13 +557,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel14MouseClicked
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4r.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4r.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Uma pata d urso.. humm?!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(3).getPreco())+"€");
         if (jLabel8.isEnabled()==true){
@@ -582,13 +572,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel8MouseClicked
 
     private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5r.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5r.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Isto é suposto parecer vento!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(4).getPreco())+"€");
         if (jLabel9.isEnabled()==true){
@@ -597,13 +587,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(11).getPreco())+"€");
         if (jLabel15.isEnabled()==true){
@@ -612,13 +602,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel15MouseClicked
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(12).getPreco())+"€");
         if (jLabel16.isEnabled()==true){
@@ -627,13 +617,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel16MouseClicked
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6r.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6r.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Scabooooochhh!!!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(5).getPreco())+"€");
         if (jLabel4.isEnabled()==true){
@@ -642,13 +632,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel4MouseClicked
 
     private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7r.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7r.png"));
         jLable_desc.setText("<html>THE ALL SEEING OLHO!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(6).getPreco())+"€");
         if (jLabel10.isEnabled()==true){
@@ -657,13 +647,13 @@ public class MercadoPoderes extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel10MouseClicked
 
     private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr1.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr2.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr3.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr4.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr5.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr6.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\pwr7.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr1.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr2.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr3.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr4.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr5.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr6.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\pwr7.png"));
         jLable_desc.setText("<html>Mais um boneco!</html>");
         jLabel18.setText("Preço: " + Double.toString(dados.getPoder(13).getPreco())+"€");
         if (jLabel17.isEnabled()==true){

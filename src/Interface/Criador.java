@@ -281,7 +281,7 @@ public class Criador extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtupright.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtupright.png"))); // NOI18N
         jLabel3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jLabel3MouseDragged(evt);
@@ -295,7 +295,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(860, 20, 50, 50);
 
-        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendU.png")); // NOI18N
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bushendU.png"))); // NOI18N
         jLabel26.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel26MouseClicked(evt);
@@ -304,7 +304,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel26);
         jLabel26.setBounds(860, 660, 50, 50);
 
-        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendD.png")); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bushendD.png"))); // NOI18N
         jLabel25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel25MouseClicked(evt);
@@ -313,7 +313,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel25);
         jLabel25.setBounds(780, 660, 50, 50);
 
-        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtE.png")); // NOI18N
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtE.png"))); // NOI18N
         jLabel24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel24MouseClicked(evt);
@@ -322,7 +322,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel24);
         jLabel24.setBounds(780, 730, 50, 50);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtEx.png")); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtEx.png"))); // NOI18N
         jLabel23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel23MouseClicked(evt);
@@ -331,7 +331,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel23);
         jLabel23.setBounds(860, 730, 50, 50);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushlongr.png")); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bushlongr.png"))); // NOI18N
         jLabel22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel22MouseClicked(evt);
@@ -340,7 +340,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel22);
         jLabel22.setBounds(860, 590, 50, 50);
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushr.png")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bushr.png"))); // NOI18N
         jLabel21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel21MouseClicked(evt);
@@ -349,7 +349,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel21);
         jLabel21.setBounds(780, 590, 50, 50);
 
-        jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassredleaf.png")); // NOI18N
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/grassredleaf.png"))); // NOI18N
         jLabel31.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel31MouseClicked(evt);
@@ -358,7 +358,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel31);
         jLabel31.setBounds(860, 520, 50, 50);
 
-        jLabel30.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassred.png")); // NOI18N
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/grassred.png"))); // NOI18N
         jLabel30.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel30MouseClicked(evt);
@@ -367,7 +367,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel30);
         jLabel30.setBounds(780, 520, 50, 50);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerURDL.png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cornerURDL.png"))); // NOI18N
         jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel17MouseClicked(evt);
@@ -376,7 +376,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel17);
         jLabel17.setBounds(860, 450, 50, 50);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerULDR.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cornerULDR.png"))); // NOI18N
         jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel16MouseClicked(evt);
@@ -385,7 +385,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel16);
         jLabel16.setBounds(780, 450, 50, 50);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\conerupright.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/conerupright.png"))); // NOI18N
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel15MouseClicked(evt);
@@ -394,7 +394,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel15);
         jLabel15.setBounds(780, 300, 50, 50);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownleft.png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cornerdownleft.png"))); // NOI18N
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel14MouseClicked(evt);
@@ -403,7 +403,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel14);
         jLabel14.setBounds(860, 370, 50, 50);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownright.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cornerdownright.png"))); // NOI18N
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel13MouseClicked(evt);
@@ -412,7 +412,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel13);
         jLabel13.setBounds(780, 370, 50, 50);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerupleft.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cornerupleft.png"))); // NOI18N
         jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel12MouseClicked(evt);
@@ -421,7 +421,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel12);
         jLabel12.setBounds(860, 300, 50, 50);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/dirtupleft.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtupleft.png"))); // NOI18N
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel11MouseClicked(evt);
@@ -430,7 +430,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(780, 20, 50, 50);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtup.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtup.png"))); // NOI18N
         jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel10MouseClicked(evt);
@@ -439,7 +439,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel10);
         jLabel10.setBounds(780, 230, 50, 50);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtright.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtright.png"))); // NOI18N
         jLabel9.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jLabel9MouseDragged(evt);
@@ -453,7 +453,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel9);
         jLabel9.setBounds(860, 160, 50, 50);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtleft.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtleft.png"))); // NOI18N
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
@@ -462,7 +462,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(780, 160, 50, 50);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownright.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtdownright.png"))); // NOI18N
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel7MouseClicked(evt);
@@ -471,7 +471,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel7);
         jLabel7.setBounds(860, 90, 50, 50);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownleft.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtdownleft.png"))); // NOI18N
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel6MouseClicked(evt);
@@ -480,7 +480,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel6);
         jLabel6.setBounds(780, 90, 50, 50);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdown.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirtdown.png"))); // NOI18N
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
@@ -489,7 +489,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(860, 230, 50, 50);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirt.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dirt.png"))); // NOI18N
         jLabel4.setEnabled(false);
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -499,7 +499,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(780, 790, 50, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\rightmenu.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/rightmenu.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(750, 0, 180, 860);
 
@@ -514,7 +514,7 @@ public class Criador extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Voltar");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -543,7 +543,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(250, 770, 280, 60);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\wood menu.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu.png"))); // NOI18N
         getContentPane().add(jLabel20);
         jLabel20.setBounds(-3, 696, 760, 160);
 
@@ -809,15 +809,15 @@ public class Criador extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel26MouseClicked
 
     private void jButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseMoved
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton2MouseMoved
 
     private void jButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MousePressed
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton2MousePressed
 
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

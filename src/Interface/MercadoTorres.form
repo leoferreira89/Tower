@@ -38,7 +38,7 @@
     <Component class="javax.swing.JLabel" name="lbl_t3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\torre3.png"/>
+          <Image iconType="3" name="/imagens/torre3.png"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -68,7 +68,7 @@
           <Color blue="0" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\barra.png"/>
+          <Image iconType="3" name="/imagens/barra.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Dinheiro: 40&#x20ac;"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -82,7 +82,7 @@
     <Component class="javax.swing.JLabel" name="lbl_t2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\torre2.png"/>
+          <Image iconType="3" name="/imagens/torre2.png"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -106,7 +106,7 @@
     <Component class="javax.swing.JLabel" name="lbl_t1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\torre1.png"/>
+          <Image iconType="3" name="/imagens/torre1.png"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -146,7 +146,7 @@
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt_m.png"/>
+          <Image iconType="3" name="/imagens/bt_m.png"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -172,7 +172,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Voltar"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -261,7 +261,7 @@
     <Component class="javax.swing.JLabel" name="jLabel20">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\wood menu.png"/>
+          <Image iconType="3" name="/imagens/wood menu.png"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -295,7 +295,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="1" name="file:/C:/Jogo/packs/rpg_gui_v1/wood menu2.png"/>
+          <Image iconType="3" name="/imagens/wood menu2.png"/>
         </Property>
       </Properties>
       <Events>

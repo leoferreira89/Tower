@@ -32,7 +32,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtupright.png"/>
+          <Image iconType="3" name="/imagens/dirtupright.png"/>
         </Property>
       </Properties>
       <Events>
@@ -48,7 +48,7 @@
     <Component class="javax.swing.JLabel" name="jLabel26">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bushendU.png"/>
+          <Image iconType="3" name="/imagens/bushendU.png"/>
         </Property>
       </Properties>
       <Events>
@@ -63,7 +63,7 @@
     <Component class="javax.swing.JLabel" name="jLabel25">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bushendD.png"/>
+          <Image iconType="3" name="/imagens/bushendD.png"/>
         </Property>
       </Properties>
       <Events>
@@ -78,7 +78,7 @@
     <Component class="javax.swing.JLabel" name="jLabel24">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtE.png"/>
+          <Image iconType="3" name="/imagens/dirtE.png"/>
         </Property>
       </Properties>
       <Events>
@@ -93,7 +93,7 @@
     <Component class="javax.swing.JLabel" name="jLabel23">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtEx.png"/>
+          <Image iconType="3" name="/imagens/dirtEx.png"/>
         </Property>
       </Properties>
       <Events>
@@ -108,7 +108,7 @@
     <Component class="javax.swing.JLabel" name="jLabel22">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bushlongr.png"/>
+          <Image iconType="3" name="/imagens/bushlongr.png"/>
         </Property>
       </Properties>
       <Events>
@@ -123,7 +123,7 @@
     <Component class="javax.swing.JLabel" name="jLabel21">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bushr.png"/>
+          <Image iconType="3" name="/imagens/bushr.png"/>
         </Property>
       </Properties>
       <Events>
@@ -138,7 +138,7 @@
     <Component class="javax.swing.JLabel" name="jLabel31">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\grassredleaf.png"/>
+          <Image iconType="3" name="/imagens/grassredleaf.png"/>
         </Property>
       </Properties>
       <Events>
@@ -153,7 +153,7 @@
     <Component class="javax.swing.JLabel" name="jLabel30">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\grassred.png"/>
+          <Image iconType="3" name="/imagens/grassred.png"/>
         </Property>
       </Properties>
       <Events>
@@ -168,7 +168,7 @@
     <Component class="javax.swing.JLabel" name="jLabel17">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\cornerURDL.png"/>
+          <Image iconType="3" name="/imagens/cornerURDL.png"/>
         </Property>
       </Properties>
       <Events>
@@ -183,7 +183,7 @@
     <Component class="javax.swing.JLabel" name="jLabel16">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\cornerULDR.png"/>
+          <Image iconType="3" name="/imagens/cornerULDR.png"/>
         </Property>
       </Properties>
       <Events>
@@ -198,7 +198,7 @@
     <Component class="javax.swing.JLabel" name="jLabel15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\conerupright.png"/>
+          <Image iconType="3" name="/imagens/conerupright.png"/>
         </Property>
       </Properties>
       <Events>
@@ -213,7 +213,7 @@
     <Component class="javax.swing.JLabel" name="jLabel14">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\cornerdownleft.png"/>
+          <Image iconType="3" name="/imagens/cornerdownleft.png"/>
         </Property>
       </Properties>
       <Events>
@@ -228,7 +228,7 @@
     <Component class="javax.swing.JLabel" name="jLabel13">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\cornerdownright.png"/>
+          <Image iconType="3" name="/imagens/cornerdownright.png"/>
         </Property>
       </Properties>
       <Events>
@@ -243,7 +243,7 @@
     <Component class="javax.swing.JLabel" name="jLabel12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\cornerupleft.png"/>
+          <Image iconType="3" name="/imagens/cornerupleft.png"/>
         </Property>
       </Properties>
       <Events>
@@ -258,7 +258,7 @@
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Interface/dirtupleft.png"/>
+          <Image iconType="3" name="/imagens/dirtupleft.png"/>
         </Property>
       </Properties>
       <Events>
@@ -273,7 +273,7 @@
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtup.png"/>
+          <Image iconType="3" name="/imagens/dirtup.png"/>
         </Property>
       </Properties>
       <Events>
@@ -288,7 +288,7 @@
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtright.png"/>
+          <Image iconType="3" name="/imagens/dirtright.png"/>
         </Property>
       </Properties>
       <Events>
@@ -304,7 +304,7 @@
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtleft.png"/>
+          <Image iconType="3" name="/imagens/dirtleft.png"/>
         </Property>
       </Properties>
       <Events>
@@ -319,7 +319,7 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtdownright.png"/>
+          <Image iconType="3" name="/imagens/dirtdownright.png"/>
         </Property>
       </Properties>
       <Events>
@@ -334,7 +334,7 @@
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtdownleft.png"/>
+          <Image iconType="3" name="/imagens/dirtdownleft.png"/>
         </Property>
       </Properties>
       <Events>
@@ -349,7 +349,7 @@
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirtdown.png"/>
+          <Image iconType="3" name="/imagens/dirtdown.png"/>
         </Property>
       </Properties>
       <Events>
@@ -364,7 +364,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\dirt.png"/>
+          <Image iconType="3" name="/imagens/dirt.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
@@ -380,7 +380,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\rightmenu.png"/>
+          <Image iconType="3" name="/imagens/rightmenu.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -411,7 +411,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Voltar"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -436,7 +436,7 @@
     <Component class="javax.swing.JLabel" name="jLabel20">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\wood menu.png"/>
+          <Image iconType="3" name="/imagens/wood menu.png"/>
         </Property>
       </Properties>
       <Constraints>

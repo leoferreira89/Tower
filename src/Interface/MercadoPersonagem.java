@@ -82,7 +82,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(null);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc6.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc6.png"))); // NOI18N
         jLabel4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -93,7 +93,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(450, 160, 54, 54);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt_m.png"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -128,13 +128,13 @@ public class MercadoPersonagem extends javax.swing.JFrame {
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(204, 204, 0));
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\barra.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/barra.png"))); // NOI18N
         jLabel20.setText("Dinheiro: 40€");
         jLabel20.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         getContentPane().add(jLabel20);
         jLabel20.setBounds(280, 390, 190, 50);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc1.png"))); // NOI18N
         jLabel11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -145,7 +145,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(150, 230, 54, 54);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc2.png"))); // NOI18N
         jLabel12.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -156,7 +156,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel12);
         jLabel12.setBounds(210, 230, 54, 54);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc3.png"))); // NOI18N
         jLabel13.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -167,7 +167,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel13);
         jLabel13.setBounds(270, 230, 54, 54);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc4.png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc4.png"))); // NOI18N
         jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -178,7 +178,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel14);
         jLabel14.setBounds(330, 230, 54, 54);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc5.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc5.png"))); // NOI18N
         jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -189,7 +189,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel15);
         jLabel15.setBounds(390, 230, 54, 54);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc6.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc6.png"))); // NOI18N
         jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -200,7 +200,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel16);
         jLabel16.setBounds(450, 230, 54, 54);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc6.png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc6.png"))); // NOI18N
         jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel17.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -211,7 +211,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel17);
         jLabel17.setBounds(510, 230, 54, 54);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc6.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc6.png"))); // NOI18N
         jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -222,7 +222,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel10);
         jLabel10.setBounds(510, 160, 54, 54);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc5.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc5.png"))); // NOI18N
         jLabel9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -233,7 +233,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel9);
         jLabel9.setBounds(390, 160, 54, 54);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc4.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc4.png"))); // NOI18N
         jLabel8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -244,7 +244,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(330, 160, 54, 54);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc3.png"))); // NOI18N
         jLabel7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel7.setFocusable(false);
         jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -256,7 +256,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel7);
         jLabel7.setBounds(270, 160, 54, 54);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc2.png"))); // NOI18N
         jLabel6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -267,7 +267,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jLabel6);
         jLabel6.setBounds(210, 160, 54, 54);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/npc1.png"))); // NOI18N
         jLabel5.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
         jLabel5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -300,16 +300,16 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         jProgressBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jProgressBar1.setStringPainted(true);
         getContentPane().add(jProgressBar1);
-        jProgressBar1.setBounds(30, 740, 146, 19);
+        jProgressBar1.setBounds(30, 740, 148, 21);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\wood menu.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu.png"))); // NOI18N
         jLabel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel19);
         jLabel19.setBounds(0, 630, 760, 160);
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bt1.png"))); // NOI18N
         jButton2.setText("Voltar");
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
@@ -338,17 +338,7 @@ public class MercadoPersonagem extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(230, 540, 280, 60);
 
-        jLabel3.setIcon(new javax.swing.JLabel() {
-            public javax.swing.Icon getIcon() {
-                try {
-                    return new javax.swing.ImageIcon(
-                        new java.net.URL("file:/C:/Jogo/packs/rpg_gui_v1/wood menu2.png")
-                    );
-                } catch (java.net.MalformedURLException e) {
-                }
-                return null;
-            }
-        }.getIcon());
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wood menu2.png"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(100, 130, 560, 280);
 
@@ -361,15 +351,15 @@ public class MercadoPersonagem extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseMoved
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-highlight.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-highlight.png"));
     }//GEN-LAST:event_jButton2MouseMoved
 
     private void jButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MousePressed
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1-clicked.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1-clicked.png"));
     }//GEN-LAST:event_jButton2MousePressed
 
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
-        jButton2.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt1.png"));
+        jButton2.setIcon(new ImageIcon("src\\imagens\\bt1.png"));
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -445,9 +435,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\anime\\npc1-ws.gif"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1-ws.gif"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Este personagem tem o cabelo loiro e o casaco vermelho! WOW!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(0).getPreco())+"€");
        if (jLabel5.isEnabled()==true){
@@ -469,9 +459,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\anime\\npc2-ws.gif"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\anime\\npc2-ws.gif"));
        jLable_desc.setText("<html>Este personagem tem o cabelo Cinzento e o casaco castanho! Quê?!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(1).getPreco())+"€");
        if (jLabel6.isEnabled()==true){
@@ -493,9 +483,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\anime\\npc3-ws.gif"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\anime\\npc3-ws.gif"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
        jLable_desc.setText("<html>Este personagem parece a tartaruga genial! Ai mãezina!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(2).getPreco())+"€");
        if (jLabel7.isEnabled()==true){
@@ -517,9 +507,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Tartaruga Genial 'The Grey'!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(3).getPreco())+"€");
        if (jLabel8.isEnabled()==true){
@@ -541,9 +531,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(4).getPreco())+"€");
        jLable_desc.setText("<html>Boneca de anime!</html>");
        if (jLabel9.isEnabled()==true){
@@ -565,9 +555,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Boneca de Hentai!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(5).getPreco())+"€");
        if (jLabel4.isEnabled()==true){
@@ -590,9 +580,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(6).getPreco())+"€");
        if (jLabel10.isEnabled()==true){
@@ -615,9 +605,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(7).getPreco())+"€");
        if (jLabel11.isEnabled()==true){
@@ -640,9 +630,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(8).getPreco())+"€");
        if (jLabel12.isEnabled()==true){
@@ -665,9 +655,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(9).getPreco())+"€");
        if (jLabel13.isEnabled()==true){
@@ -690,9 +680,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(10).getPreco())+"€");
        if (jLabel14.isEnabled()==true){
@@ -715,9 +705,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(11).getPreco())+"€");
        if (jLabel15.isEnabled()==true){
@@ -740,9 +730,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(12).getPreco())+"€");
        if (jLabel16.isEnabled()==true){
@@ -765,9 +755,9 @@ public class MercadoPersonagem extends javax.swing.JFrame {
        jLabel16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
        jLabel17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 0), 2, true));
        jLabel10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 0), 2, true));
-       jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc1.png"));
-       jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc2.png"));
-       jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\npc3.png"));
+       jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc1.png"));
+       jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc2.png"));
+       jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\npc3.png"));
        jLable_desc.setText("<html>Mais um boneco!</html>");
        jLabel18.setText("Preço: " + Double.toString(dados.getPersona(13).getPreco())+"€");
        if (jLabel17.isEnabled()==true){
@@ -776,11 +766,11 @@ public class MercadoPersonagem extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel17MouseClicked
 
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m_c.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt_m_c.png"));
     }//GEN-LAST:event_jButton1MousePressed
 
     private void jButton1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseReleased
-        jButton1.setIcon(new ImageIcon("C:\\Jogo\\packs\\rpg_gui_v1\\bt_m.png"));
+        jButton1.setIcon(new ImageIcon("src\\imagens\\bt_m.png"));
     }//GEN-LAST:event_jButton1MouseReleased
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

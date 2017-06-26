@@ -146,7 +146,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Selecionar"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -176,7 +176,7 @@
           <Color blue="0" green="0" red="66" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\bt1.png"/>
+          <Image iconType="3" name="/imagens/bt1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Novo Perfil"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -199,7 +199,7 @@
     <Component class="javax.swing.JLabel" name="lbl_e1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\quandrado-X.png"/>
+          <Image iconType="3" name="/imagens/quandrado-X.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -216,7 +216,7 @@
     <Component class="javax.swing.JLabel" name="lbl_e2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\quandrado-X.png"/>
+          <Image iconType="3" name="/imagens/quandrado-X.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -233,7 +233,7 @@
     <Component class="javax.swing.JLabel" name="lbl_e3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\quandrado-X.png"/>
+          <Image iconType="3" name="/imagens/quandrado-X.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -250,7 +250,7 @@
     <Component class="javax.swing.JLabel" name="lbl_e4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\packs\rpg_gui_v1\quandrado-X.png"/>
+          <Image iconType="3" name="/imagens/quandrado-X.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -271,7 +271,7 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="2"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Jogo\imagens\bg.jpg"/>
+          <Image iconType="3" name="/imagens/bg.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
