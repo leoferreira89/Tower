@@ -177,57 +177,56 @@ public class Criador extends javax.swing.JFrame {
     }
     
     private String getTexturas(int i){
-        String path1="C:\\Jogo\\imagens\\";
-        String textura= path1+"squarep.png";
+        String textura= "src\\imagens\\squarep.png";
         switch(i){
-            case 1: textura=path1+"dirtE.png";
+            case 1: textura= "src\\imagens\\dirtE.png";
                 break;
             case 2:
-                textura= path1+"dirt.png";
+                textura= "src\\imagens\\dirt.png";
                 break;
-            case 3: textura= path1+"dirtEx.png";
+            case 3: textura= "src\\imagens\\dirtEx.png";
                 break;
-            case 4: textura= path1+"squarep.png";
+            case 4: textura= "src\\imagens\\squarep.png";
                 break;
-            case 5: textura="C:\\Jogo\\imagens\\dirtupleft.png";
+            case 5: textura= "src\\imagens\\dirtupleft.png";
                 break;
-            case 6: textura="C:\\Jogo\\imagens\\dirtupright.png";
+            case 6: textura= "src\\imagens\\dirtupright.png";
                 break;
-            case 7: textura="C:\\Jogo\\imagens\\dirtdownleft.png";
+            case 7: textura= "src\\imagens\\dirtdownleft.png";
                 break;
-            case 8: textura="C:\\Jogo\\imagens\\dirtdownright.png";
+            case 8: textura= "src\\imagens\\dirtdownright.png";
                 break;
-            case 9: textura="C:\\Jogo\\imagens\\dirtleft.png";
+            case 9: textura= "src\\imagens\\dirtleft.png";
                 break;
-            case 10: textura="C:\\Jogo\\imagens\\dirtright.png";
+            case 10: textura= "src\\imagens\\dirtright.png";
                 break;
-            case 11: textura="C:\\Jogo\\imagens\\dirtup.png";
+            case 11: textura= "src\\imagens\\dirtup.png";
                 break;
-            case 12: textura="C:\\Jogo\\imagens\\dirtdown.png";
+            case 12: textura= "src\\imagens\\dirtdown.png";
                 break;
-            case 13: textura="C:\\Jogo\\imagens\\conerupright.png";
+            case 13: textura= "src\\imagens\\conerupright.png";
                 break;
-            case 14: textura="C:\\Jogo\\imagens\\cornerupleft.png";
+            case 14: textura= "src\\imagens\\cornerupleft.png";
                 break;
-            case 15: textura="C:\\Jogo\\imagens\\cornerdownright.png";
+            case 15: textura= "src\\imagens\\cornerdownright.png";
                 break;
-            case 16: textura="C:\\Jogo\\imagens\\cornerdownleft.png";
+            case 16: textura= "src\\imagens\\cornerdownleft.png";
                 break;
-            case 17: textura="C:\\Jogo\\imagens\\cornerULDR.png";
+            case 17: textura= "src\\imagens\\cornerULDR.png";
                 break;
-            case 18: textura="C:\\Jogo\\imagens\\cornerURDL.png";
+            case 18: textura= "src\\imagens\\cornerURDL.png";
                 break;
-            case 19: textura="C:\\Jogo\\imagens\\grassred.png";
+            case 19: textura= "src\\imagens\\grassred.png";
                 break;
-            case 20: textura="C:\\Jogo\\imagens\\grassredleaf.png";
+            case 20: textura= "src\\imagens\\grassredleaf.png";
                 break;
-            case 21: textura="C:\\Jogo\\imagens\\bushr.png";
+            case 21: textura= "src\\imagens\\bushr.png";
                 break;
-            case 22: textura="C:\\Jogo\\imagens\\bushlongr.png";
+            case 22: textura= "src\\src\\imagens\\bushlongr.png";
                 break;
-            case 23: textura="C:\\Jogo\\imagens\\bushendD.png";
+            case 23: textura= "src\\src\\imagens\\bushendD.png";
                 break;
-            case 24: textura="C:\\Jogo\\imagens\\bushendU.png";
+            case 24: textura= "src\\src\\imagens\\bushendU.png";
                 break;
             
         }
@@ -422,7 +421,7 @@ public class Criador extends javax.swing.JFrame {
         getContentPane().add(jLabel12);
         jLabel12.setBounds(860, 300, 50, 50);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtupleft.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interface/dirtupleft.png"))); // NOI18N
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel11MouseClicked(evt);
@@ -511,7 +510,7 @@ public class Criador extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(300, 730, 170, 25);
+        jButton1.setBounds(300, 730, 170, 26);
 
         jButton2.setFont(new java.awt.Font("Freestyle Script", 0, 36)); // NOI18N
         jButton2.setForeground(new java.awt.Color(102, 0, 0));
@@ -611,35 +610,35 @@ public class Criador extends javax.swing.JFrame {
             setLabelsIcons();
              setTrail();        
             text=2;
-            jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirts.png"));
+            jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirts.png"));
         }
     }//GEN-LAST:event_jLabel4MouseClicked
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
        setLabelsIcons();
        text=12;
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdowns.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdowns.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
        setLabelsIcons();
        text=7;
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownlefts.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdownlefts.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel6MouseClicked
 
     private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
         setLabelsIcons();
         text=8;
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownrights.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdownrights.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel7MouseClicked
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
         setLabelsIcons();
         text=9;
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtlefts.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtlefts.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel8MouseClicked
 
@@ -650,14 +649,14 @@ public class Criador extends javax.swing.JFrame {
     private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
         setLabelsIcons();
         text=11;
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtups.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtups.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel10MouseClicked
 
     private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
         setLabelsIcons();
         text=5;
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtuplefts.png"));
+        jLabel11.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtuplefts.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel11MouseClicked
 
@@ -668,84 +667,84 @@ public class Criador extends javax.swing.JFrame {
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
          setLabelsIcons();
          text=6;
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtuprights.png"));
+        jLabel3.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtuprights.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel3MouseClicked
 
     private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
          setLabelsIcons();
          text=10;
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtrights.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtrights.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
          setLabelsIcons();
          text=14;
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\corneruplefts.png"));
+        jLabel12.setIcon(new javax.swing.ImageIcon("src\\imagens\\corneruplefts.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel12MouseClicked
 
     private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
          setLabelsIcons();
          text=15;
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownrights.png"));
+        jLabel13.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerdownrights.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
          setLabelsIcons();
          text=16;
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownlefts.png"));
+        jLabel14.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerdownlefts.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel14MouseClicked
 
     private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
         setLabelsIcons();
         text=13;
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\coneruprights.png"));
+        jLabel15.setIcon(new javax.swing.ImageIcon("src\\imagens\\coneruprights.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel15MouseClicked
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
         setLabelsIcons();
         text=17;
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerULDRs.png"));
+        jLabel16.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerULDRs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel16MouseClicked
 
     private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
         setLabelsIcons();
         text=18;
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerURDLs.png"));
+        jLabel17.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerURDLs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel17MouseClicked
 
     private void jLabel30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel30MouseClicked
         setLabelsIcons();
         text=19;
-        jLabel30.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassreds.png"));
+        jLabel30.setIcon(new javax.swing.ImageIcon("src\\imagens\\grassreds.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel30MouseClicked
 
     private void jLabel31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel31MouseClicked
         setLabelsIcons();
         text=20;
-        jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassredleafs.png"));
+        jLabel31.setIcon(new javax.swing.ImageIcon("src\\imagens\\grassredleafs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel31MouseClicked
 
     private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
         setLabelsIcons();
         text=21;
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushrs.png"));
+        jLabel21.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushrs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel21MouseClicked
 
     private void jLabel22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel22MouseClicked
        setLabelsIcons();
        text=22;
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushlongrs.png"));
+        jLabel22.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushlongrs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel22MouseClicked
 
@@ -778,7 +777,7 @@ public class Criador extends javax.swing.JFrame {
         if (jLabel23.isEnabled()==true){
         setLabelsIcons();
         text=3;
-        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtExs.png"));
+        jLabel23.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtExs.png"));
         setMatrizSquare();
         }
         //jLabel23.setEnabled(false);
@@ -788,7 +787,7 @@ public class Criador extends javax.swing.JFrame {
         if (jLabel24.isEnabled()==true){
             setLabelsIcons();
             text=1;
-            jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtEs.png"));
+            jLabel24.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtEs.png"));
             setMatrizSquare();
         }
         //jLabel24.setEnabled(false);
@@ -797,7 +796,7 @@ public class Criador extends javax.swing.JFrame {
     private void jLabel25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel25MouseClicked
        setLabelsIcons();
        text=23;
-        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendDs.png"));
+        jLabel25.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushendDs.png"));
         setMatrizNormal();
         
     }//GEN-LAST:event_jLabel25MouseClicked
@@ -805,7 +804,7 @@ public class Criador extends javax.swing.JFrame {
     private void jLabel26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel26MouseClicked
         setLabelsIcons();
         text=24;
-        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendUs.png"));
+        jLabel26.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushendUs.png"));
         setMatrizNormal();
     }//GEN-LAST:event_jLabel26MouseClicked
 
@@ -853,29 +852,29 @@ public class Criador extends javax.swing.JFrame {
     
     private void setLabelsIcons(){
         
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtupright.png"));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirt.png"));
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdown.png"));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownleft.png"));
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtdownright.png"));
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtleft.png"));
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtright.png"));
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtup.png"));
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtupleft.png"));
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerupleft.png"));
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownright.png"));
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerdownleft.png"));
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\conerupright.png"));
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerULDR.png"));
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\cornerURDL.png"));
-        jLabel30.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassred.png"));
-        jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\grassredleaf.png"));
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushr.png"));
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushlongr.png"));
-        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtEx.png"));
-        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\dirtE.png"));
-        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendD.png"));
-        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Jogo\\imagens\\bushendU.png"));
+        jLabel3.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtupright.png"));
+        jLabel4.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirt.png"));
+        jLabel5.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdown.png"));
+        jLabel6.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdownleft.png"));
+        jLabel7.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtdownright.png"));
+        jLabel8.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtleft.png"));
+        jLabel9.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtright.png"));
+        jLabel10.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtup.png"));
+        jLabel11.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtupleft.png"));
+        jLabel12.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerupleft.png"));
+        jLabel13.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerdownright.png"));
+        jLabel14.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerdownleft.png"));
+        jLabel15.setIcon(new javax.swing.ImageIcon("src\\imagens\\conerupright.png"));
+        jLabel16.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerULDR.png"));
+        jLabel17.setIcon(new javax.swing.ImageIcon("src\\imagens\\cornerURDL.png"));
+        jLabel30.setIcon(new javax.swing.ImageIcon("src\\imagens\\grassred.png"));
+        jLabel31.setIcon(new javax.swing.ImageIcon("src\\imagens\\grassredleaf.png"));
+        jLabel21.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushr.png"));
+        jLabel22.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushlongr.png"));
+        jLabel23.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtEx.png"));
+        jLabel24.setIcon(new javax.swing.ImageIcon("src\\imagens\\dirtE.png"));
+        jLabel25.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushendD.png"));
+        jLabel26.setIcon(new javax.swing.ImageIcon("src\\imagens\\bushendU.png"));
         
     }
     /**
